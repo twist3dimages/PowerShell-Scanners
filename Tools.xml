@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.2.174.0" MinimumVersion="15.0">
+  <CustomTool>
+    <CredentialsId value="null" />
+    <RunAs>Admin</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>Enable-NetAdapterPowerManagement -Name Ethernet</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Enable WOL</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="2" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>enable-psremoting -skipnetworkprofilecheck -force</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>PREMOTING</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="2" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>Get-NetFirewallRule -DisplayGroup 'Network Discovery'|Set-NetFirewallRule -Enabled true -PassThru|select Name,DisplayName,Enabled,Profile|ft -a
+# http://winrollup.com/enable-network-discovery-in-windows-10-creator-edition-without-using-the-netsh-command-in-powershell</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Turn Network Discovery on for NTLM Issues</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+</AdminArsenal.Export>

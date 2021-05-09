@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.2.174.0" MinimumVersion="15.0">
+  <CustomTool>
+    <CredentialsId value="null" />
+    <RunAs>Admin</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>Enable-NetAdapterPowerManagement -Name Ethernet</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Enable WOL</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="2" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>enable-psremoting -skipnetworkprofilecheck -force</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>PREMOTING</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="2" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>Get-NetFirewallRule -DisplayGroup 'Network Discovery'|Set-NetFirewallRule -Enabled true -PassThru|select Name,DisplayName,Enabled,Profile|ft -a
+# http://winrollup.com/enable-network-discovery-in-windows-10-creator-edition-without-using-the-netsh-command-in-powershell</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Turn Network Discovery on for NTLM Issues</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="null" />
+    <RunAs>Admin</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="2" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>MsiExec.exe /qn /norestart /X{91E79414-DB41-4030-9A13-E133EE30F1D5}</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>Command</Mode>
+    <Description></Description>
+    <IconKey>Icon-CommandStep</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Uninstall DCM2 + Scan</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="3" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="2" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>MsiExec.exe /qn /norestart /X{91E79414-DB41-4030-9A13-E133EE30F1D5}</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>Command</Mode>
+    <Description></Description>
+    <IconKey>Icon-CommandStep</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Uninstall Dell Command Monitor</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="3" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="2" />
+    <SuccessCodesText>0,3010,1641</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>MsiExec.exe /qn /norestart /X{7A32F9AF-3284-46C4-9ACC-AFD04A31DD57}</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>Command</Mode>
+    <Description></Description>
+    <IconKey>Icon-CommandStep</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>ps7 uninstall</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="null" />
+    <RunAs>Admin</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>Set-ItemProperty -Path HKLM:\SOFTWARE\Dell\UpdateService\Clients\CommandUpdate\Preferences\Settings\UpdateFilter\UpdateType -Name IsFirmwareSelected -Value 1
+Set-ItemProperty -Path HKLM:\SOFTWARE\Dell\UpdateService\Clients\CommandUpdate\Preferences\Settings\UpdateFilter\UpdateType -Name IsBiosSelected -Value 1</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Set Item Property IsFirmwareSelected, IsBiosSelected</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="3" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>remove-item "C:\Users\Public\Desktop\PDFsam Basic.lnk" -force</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>remove-item</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="null" />
+    <RunAs>Admin</RunAs>
+    <ScanAfter>DoNotScan</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Remote</CustomToolType>
+    <CommandLine>#(Get-Item WSMan:\localhost\Client\TrustedHosts).value
+ $curList = (Get-Item WSMan:\localhost\Client\TrustedHosts).value 
+Set-Item WSMan:\localhost\Client\TrustedHosts -Concatenate -Value "$curList, ipswich2.efwnow.local" -FORCE -VERBOSE</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>PowerShell</Mode>
+    <Description></Description>
+    <IconKey>Icon-PowerShell</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>Append ipswich2 to trusted hosts</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+</AdminArsenal.Export>

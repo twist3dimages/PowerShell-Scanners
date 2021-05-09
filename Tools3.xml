@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AdminArsenal.Export Code="PDQInventory" Name="PDQ Inventory" Version="19.2.174.0" MinimumVersion="15.0">
+  <CustomTool>
+    <CredentialsId value="1" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Local</CustomToolType>
+    <CommandLine>psexec \\$(Computer:TARGETHOSTNAME) regedit.exe /s "\\Amznfsx4jnt7tn0.int.efwnow.com\efwit\_Helpdesk Stuff\PDQ\Scripts\localaccounttokenfilterpolicy.reg"</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>Command</Mode>
+    <Description></Description>
+    <IconKey>Icon-CommandStep</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>PSEXec localaccount</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+  <CustomTool>
+    <CredentialsId value="1" />
+    <RunAs>LocalSystem</RunAs>
+    <ScanAfter>ScanAfter</ScanAfter>
+    <ScanProfileId value="null" />
+    <SuccessCodesText>0</SuccessCodesText>
+    <Timeout>00:03:00</Timeout>
+    <WakeOnLan value="false" />
+    <CustomToolType>Local</CustomToolType>
+    <CommandLine>psexec \\$(Computer:TARGETHOSTNAME) -s cmd /c "powershell enable-psremoting -skipnetworkprofilecheck -force"</CommandLine>
+    <DefaultIconKey></DefaultIconKey>
+    <LibraryToolId value="null" />
+    <Modified value="null" />
+    <ShellOpenMode>ToolWindowCaptureOutput</ShellOpenMode>
+    <Mode>Command</Mode>
+    <Description></Description>
+    <IconKey>Icon-CommandStep</IconKey>
+    <KeyGesture></KeyGesture>
+    <Title>PSEXec powershell remoting</Title>
+    <TypeName>CustomTool</TypeName>
+  </CustomTool>
+</AdminArsenal.Export>
