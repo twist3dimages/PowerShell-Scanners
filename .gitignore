@@ -1,0 +1,81 @@
+
+PowerShell Scanners/JKR-PDQ/
+PowerShell Scanners/PDQit/
+PowerShell Scanners/Bonus-Content/
+PowerShell Scanners/PDQ_Things-master/README.md
+PowerShell Scanners/PDQ_Things-master/LICENSE
+PowerShell Scanners/PDQ_Things-master/AD_Group_to_PDQ_Computer.ps1
+PowerShell Scanners/PDQ-master/Reset Office 365 Key on Client.xml
+PowerShell Scanners/PDQ-master/Remove-OldUserProfiles.ps1
+PowerShell Scanners/PDQ-master/README.md
+PowerShell Scanners/PDQ Example Scan Profiles/PDQ Inventory Scan Request Server.ps1
+PowerShell Scanners/PDQ Example Scan Profiles/PDQ Inventory Scan Request Client.ps1
+PowerShell Scanners/PDQ Example Scan Profiles/Duplicate MAC Addresses.xml
+PowerShell Scanners/PDQ Example Scan Profiles/Duplicate MAC Addresses.sql
+PowerShell Scanners/Misc/TablacusExplorer/README.md
+PowerShell Scanners/Misc/TablacusExplorer/install.ps1
+PowerShell Scanners/Misc/PDQ Deploy/README.md
+PowerShell Scanners/Misc/PDQ Deploy/install.ps1
+PowerShell Scanners/Microsoft/Teams/README.MD
+PowerShell Scanners/Microsoft/Teams/install.ps1
+PowerShell Scanners/Microsoft/PowerShell/README.MD
+PowerShell Scanners/Microsoft/PowerShell/Install_x86.ps1
+PowerShell Scanners/Microsoft/PowerShell/Install_x64.ps1
+PowerShell Scanners/Microsoft/Office365/README.md
+PowerShell Scanners/Microsoft/Office365/RDSH.xml
+PowerShell Scanners/Microsoft/Office365/install.ps1
+PowerShell Scanners/Microsoft/MDT-VcRedist/VcRedist-Update.ps1
+PowerShell Scanners/Microsoft/MDT-VcRedist/VcRedist-Install.ps1
+PowerShell Scanners/Microsoft/MDT-VcRedist/README.md
+PowerShell Scanners/_config.yml
+PowerShell Scanners/DellBIOSProvider/BIOSIntf.dll
+PowerShell Scanners/DellBIOSProvider/Clear-DellAdminPassword.ps1
+PowerShell Scanners/DellBIOSProvider/Dell Command PowerShell Provider 2.1.0_Third Party Licenses.pdf
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_BootSequence/DCPP_BootSequence.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_BootSequence/DCPP_BootSequence.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_BIOSSetupAdvancedMode/DCPP_BIOSSetupAdvancedMode.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_BIOSSetupAdvancedMode/DCPP_BIOSSetupAdvancedMode.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_AdvancedConfigurations/DCPP_AdvancedConfigurations.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_AdvancedConfigurations/DCPP_AdvancedConfigurations.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_AdvancedBootOptions/DCPP_AdvancedBootOptions.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_AdvancedBootOptions/DCPP_AdvancedBootOptions.psm1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_SecureKey.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_PowerManagement.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_POSTBehavior.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_PassingCredentials.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_MultipleNodes_2.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_MultipleNodes_1.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_ChangeLCMMetaConfig.ps1
+PowerShell Scanners/DellBIOSProvider/DSC_SampleScripts/Sample_All.ps1
+PowerShell Scanners/DellBIOSProvider/DellBIOSProvider.PSM1
+PowerShell Scanners/DellBIOSProvider/DellBIOSProvider.psd1
+PowerShell Scanners/DellBIOSProvider/DellBIOSProvider.dll
+PowerShell Scanners/DellBIOSProvider/DellBIOSProvider.cat
+PowerShell Scanners/CIM Data_File --- Correct.ps1
+PowerShell Scanners/Dell Driver Scan - No Bios, No Reboot.ps1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_IntelSoftwareGuardExtensions/DCPP_IntelSoftwareGuardExtensions.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_IntelSoftwareGuardExtensions/DCPP_IntelSoftwareGuardExtensions.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Maintenance/DCPP_Maintenance.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Maintenance/DCPP_Maintenance.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Manageability/DCPP_Manageability.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Manageability/DCPP_Manageability.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_MiscellaneousDevices/DCPP_MiscellaneousDevices.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_MiscellaneousDevices/DCPP_MiscellaneousDevices.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Performance/DCPP_Performance.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Performance/DCPP_Performance.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_POSTBehavior/DCPP_POSTBehavior.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_POSTBehavior/DCPP_POSTBehavior.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_PowerManagement/DCPP_PowerManagement.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_PowerManagement/DCPP_PowerManagement.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SecureBoot/DCPP_SecureBoot.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SecureBoot/DCPP_SecureBoot.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Security/DCPP_Security.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_Security/DCPP_Security.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_StealthModeControl/DCPP_StealthModeControl.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_StealthModeControl/DCPP_StealthModeControl.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SupportAssistSystemResolution/DCPP_SupportAssistSystemResolution.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SupportAssistSystemResolution/DCPP_SupportAssistSystemResolution.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SystemConfiguration/DCPP_SystemConfiguration.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SystemConfiguration/DCPP_SystemConfiguration.schema.mof
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SystemLogs/DCPP_SystemLogs.psm1
+PowerShell Scanners/DellBIOSProvider/DSCResources/DCPP_SystemLogs/DCPP_SystemLogs.schema.mof
